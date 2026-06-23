@@ -1,4 +1,19 @@
 #!/bin/bash
+
+detect_hardware() {
+clear
+
+echo "CPU:"
 lscpu
-lsblk
+
+echo
+echo "Memory:"
+free -h
+
+echo
+echo "PCI Devices:"
 lspci
+
+echo
+read -p "Press Enter..."
+}
