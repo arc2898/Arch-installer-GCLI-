@@ -1,0 +1,4 @@
+#!/bin/bash
+
+DEFAULT_DESKTOP=xfce
+DEFAULT_BOOTLOADER=limine
